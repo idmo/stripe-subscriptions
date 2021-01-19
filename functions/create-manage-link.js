@@ -24,6 +24,7 @@ exports.handler = async (_event, context) => {
     return_url: process.env.URL,
   });
 
+
   return {
     statusCode: 200,
     body: JSON.stringify(link.url),
